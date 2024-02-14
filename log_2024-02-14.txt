@@ -1,0 +1,28 @@
+2024-02-14 17:06:05,647 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-14 17:06:05,647 - [33mPress CTRL+C to quit[0m
+2024-02-14 17:06:05,651 -  * Restarting with stat
+2024-02-14 17:06:06,017 -  * Debugger is active!
+2024-02-14 17:06:06,024 -  * Debugger PIN: 124-478-049
+2024-02-14 17:07:21,795 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-14 17:07:21,805 - [33mPress CTRL+C to quit[0m
+2024-02-14 17:07:21,809 -  * Restarting with stat
+2024-02-14 17:07:22,203 -  * Debugger is active!
+2024-02-14 17:07:22,210 -  * Debugger PIN: 124-478-049
+2024-02-14 17:08:14,263 - 127.0.0.1 - - [14/Feb/2024 17:08:14] "[31m[1mPOST /api/is_white HTTP/1.1[0m" 400 -
+2024-02-14 17:09:20,263 - 127.0.0.1 - - [14/Feb/2024 17:09:20] "[31m[1mPOST /api/is_white HTTP/1.1[0m" 400 -
+2024-02-14 17:13:31,829 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-14 17:13:31,829 - [33mPress CTRL+C to quit[0m
+2024-02-14 17:13:31,833 -  * Restarting with stat
+2024-02-14 17:13:32,221 -  * Debugger is active!
+2024-02-14 17:13:32,227 -  * Debugger PIN: 124-478-049
+2024-02-14 17:14:57,519 - 127.0.0.1 - - [14/Feb/2024 17:14:57] "[31m[1mPOST /api/is_white HTTP/1.1[0m" 400 -
+2024-02-14 17:15:42,650 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-14 17:15:42,650 - [33mPress CTRL+C to quit[0m
+2024-02-14 17:15:42,654 -  * Restarting with stat
+2024-02-14 17:15:43,011 -  * Debugger is active!
+2024-02-14 17:15:43,020 -  * Debugger PIN: 124-478-049
+2024-02-14 17:17:51,558 - 127.0.0.1 - - [14/Feb/2024 17:17:51] "[31m[1mPOST /api/is_white HTTP/1.1[0m" 400 -
