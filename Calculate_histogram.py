@@ -25,7 +25,7 @@ def calculate_histogram(image):
     return histogram
 
 
-def group_colors_by_similarity(color_values, base_color, histogram, threshold=10):
+def group_colors_by_similarity(color_values, base_color, histogram, threshold=7):
     total_frequency = 0
     for color in color_values:
         if all(abs(color[i] - base_color[i]) <= threshold for i in range(3)):
@@ -56,7 +56,7 @@ def is_white(filename):
     histogram = calculate_histogram(image)
     base_white = (255, 255, 255)
     colors_to_group = [(r, g, b) for r in range(240, 256) for g in range(240, 256) for b in range(240, 256)]
-    base_color, total_frequency = group_colors_by_similarity(colors_to_group, base_white, histogram, threshold=10)
+    base_color, total_frequency = group_colors_by_similarity(colors_to_group, base_white, histogram, threshold=7)
     background_color = detect_background_color(histogram, base_white, total_frequency)
     print(f"The background color is {background_color}.")
 
@@ -69,10 +69,10 @@ def is_white(filename):
     return False
 
 
-if __name__ == "__main__":
-    directory_path = 'BIOMETRICS/GOOD2/'
-    for filename in os.listdir(directory_path):
-        file_path = os.path.join(directory_path, filename)
-        if os.path.isfile(file_path):
-            print(f'\nchecking {file_path}')
-            is_white(file_path)
+# if __name__ == "__main__":
+#     directory_path = 'BIOMETRICS/GOOD2/'
+#     for filename in os.listdir(directory_path):
+#         file_path = os.path.join(directory_path, filename)
+#         if os.path.isfile(file_path):
+#             print(f'\nchecking {file_path}')
+#             is_white(file_path)

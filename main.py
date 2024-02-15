@@ -3,7 +3,7 @@ import logging
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 
 from Calculate_histogram import is_white
 
@@ -33,4 +33,4 @@ def is_jpeg():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0", port=8000)

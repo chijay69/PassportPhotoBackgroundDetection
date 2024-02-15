@@ -16,3 +16,47 @@
 2024-02-15 11:45:04,210 - 127.0.0.1 - - [15/Feb/2024 11:45:04] "[31m[1mPOST /api/is_white HTTP/1.1[0m" 400 -
 2024-02-15 11:45:22,688 - SUCCESSFUL
 2024-02-15 11:45:22,689 - 127.0.0.1 - - [15/Feb/2024 11:45:22] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 12:58:50,828 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-15 12:58:50,828 - [33mPress CTRL+C to quit[0m
+2024-02-15 12:58:50,840 -  * Restarting with stat
+2024-02-15 12:58:51,182 -  * Debugger is active!
+2024-02-15 12:58:51,188 -  * Debugger PIN: 124-478-049
+2024-02-15 12:59:02,286 - SUCCESSFUL
+2024-02-15 12:59:02,287 - 127.0.0.1 - - [15/Feb/2024 12:59:02] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 12:59:50,345 - SUCCESSFUL
+2024-02-15 12:59:50,347 - 127.0.0.1 - - [15/Feb/2024 12:59:50] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 13:00:04,379 - SUCCESSFUL
+2024-02-15 13:00:04,381 - 127.0.0.1 - - [15/Feb/2024 13:00:04] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 13:00:15,732 - SUCCESSFUL
+2024-02-15 13:00:15,734 - 127.0.0.1 - - [15/Feb/2024 13:00:15] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 13:01:17,280 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-15 13:01:17,280 - [33mPress CTRL+C to quit[0m
+2024-02-15 13:01:17,283 -  * Restarting with stat
+2024-02-15 13:01:17,649 -  * Debugger is active!
+2024-02-15 13:01:17,656 -  * Debugger PIN: 124-478-049
+2024-02-15 13:01:34,551 - SUCCESSFUL
+2024-02-15 13:01:34,552 - 127.0.0.1 - - [15/Feb/2024 13:01:34] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 13:01:52,759 - SUCCESSFUL
+2024-02-15 13:01:52,761 - 127.0.0.1 - - [15/Feb/2024 13:01:52] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 13:02:06,552 - SUCCESSFUL
+2024-02-15 13:02:06,553 - 127.0.0.1 - - [15/Feb/2024 13:02:06] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 13:02:25,949 - SUCCESSFUL
+2024-02-15 13:02:25,950 - 127.0.0.1 - - [15/Feb/2024 13:02:25] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 13:02:40,436 - SUCCESSFUL
+2024-02-15 13:02:40,437 - 127.0.0.1 - - [15/Feb/2024 13:02:40] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 13:02:57,332 - SUCCESSFUL
+2024-02-15 13:02:57,333 - 127.0.0.1 - - [15/Feb/2024 13:02:57] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 13:03:13,825 - SUCCESSFUL
+2024-02-15 13:03:13,826 - 127.0.0.1 - - [15/Feb/2024 13:03:13] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 13:03:28,724 - SUCCESSFUL
+2024-02-15 13:03:28,725 - 127.0.0.1 - - [15/Feb/2024 13:03:28] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 13:03:45,052 - SUCCESSFUL
+2024-02-15 13:03:45,054 - 127.0.0.1 - - [15/Feb/2024 13:03:45] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 13:03:56,158 - SUCCESSFUL
+2024-02-15 13:03:56,159 - 127.0.0.1 - - [15/Feb/2024 13:03:56] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 13:04:07,824 - SUCCESSFUL
+2024-02-15 13:04:07,825 - 127.0.0.1 - - [15/Feb/2024 13:04:07] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 13:04:23,050 - SUCCESSFUL
+2024-02-15 13:04:23,052 - 127.0.0.1 - - [15/Feb/2024 13:04:23] "POST /api/is_white HTTP/1.1" 200 -
