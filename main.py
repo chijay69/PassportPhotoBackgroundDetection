@@ -4,10 +4,12 @@ import logging
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 from flask import Flask, request, jsonify, send_from_directory
+from flask_cors import CORS
 
 from Calculate_histogram import is_white
 
 app = Flask(__name__)
+CORS(app, resource={r"/api/*": {"origins": "*"}})
 
 
 @app.route('/api/is_white', methods=['POST'])
