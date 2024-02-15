@@ -60,3 +60,15 @@
 2024-02-15 13:04:07,825 - 127.0.0.1 - - [15/Feb/2024 13:04:07] "POST /api/is_white HTTP/1.1" 200 -
 2024-02-15 13:04:23,050 - SUCCESSFUL
 2024-02-15 13:04:23,052 - 127.0.0.1 - - [15/Feb/2024 13:04:23] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 13:44:21,418 - Unknown option passed to Flask-CORS: resource
+2024-02-15 13:44:21,418 - Unknown option passed to Flask-CORS: resource
+2024-02-15 13:44:21,439 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.13.130:8000
+2024-02-15 13:44:21,439 - [33mPress CTRL+C to quit[0m
+2024-02-15 13:44:21,444 -  * Restarting with stat
+2024-02-15 13:44:21,843 - Unknown option passed to Flask-CORS: resource
+2024-02-15 13:44:21,843 - Unknown option passed to Flask-CORS: resource
+2024-02-15 13:44:21,852 -  * Debugger is active!
+2024-02-15 13:44:21,860 -  * Debugger PIN: 124-478-049

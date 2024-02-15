@@ -1,6 +1,8 @@
 import os
 import logging
 from _datetime import datetime
+from io import BytesIO
+
 from PIL import Image
 
 # Configure logging
@@ -41,17 +43,17 @@ def detect_background_color(histogram, base_color, total_frequency):
         return "not white"
 
 
-def is_white(filename):
+def is_white(file):
     """
-        Determines if an image is "white" based on its background color and dominant colors.
+    Determines if an image is "white" based on its background color and dominant colors.
 
-        Args:
-            filename (filestorage): Path to the image file.
+    Args:
+        file (file): File-like object containing the image data.
 
-        Returns:
-            bool: True if the image is considered white, False otherwise.
+    Returns:
+        bool: True if the image is considered white, False otherwise.
     """
-    image = Image.open(filename)
+    image = Image.open(BytesIO(file.read()))
     # image.verify()  # Verify it's not a corrupt JPEG
     histogram = calculate_histogram(image)
     base_white = (255, 255, 255)
