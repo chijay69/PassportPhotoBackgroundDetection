@@ -1,0 +1,18 @@
+2024-02-15 11:42:48,965 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-15 11:42:48,966 - [33mPress CTRL+C to quit[0m
+2024-02-15 11:42:48,980 -  * Restarting with stat
+2024-02-15 11:42:49,309 -  * Debugger is active!
+2024-02-15 11:42:49,315 -  * Debugger PIN: 124-478-049
+2024-02-15 11:42:54,915 - 127.0.0.1 - - [15/Feb/2024 11:42:54] "[31m[1mPOST /api/is_white HTTP/1.1[0m" 400 -
+2024-02-15 11:43:43,428 - SUCCESSFUL
+2024-02-15 11:43:43,431 - 127.0.0.1 - - [15/Feb/2024 11:43:43] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 11:44:17,588 - SUCCESSFUL
+2024-02-15 11:44:17,589 - 127.0.0.1 - - [15/Feb/2024 11:44:17] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 11:44:45,656 - SUCCESSFUL
+2024-02-15 11:44:45,657 - 127.0.0.1 - - [15/Feb/2024 11:44:45] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 11:44:53,400 - SUCCESSFUL
+2024-02-15 11:44:53,402 - 127.0.0.1 - - [15/Feb/2024 11:44:53] "POST /api/is_white HTTP/1.1" 200 -
+2024-02-15 11:45:04,210 - 127.0.0.1 - - [15/Feb/2024 11:45:04] "[31m[1mPOST /api/is_white HTTP/1.1[0m" 400 -
+2024-02-15 11:45:22,688 - SUCCESSFUL
+2024-02-15 11:45:22,689 - 127.0.0.1 - - [15/Feb/2024 11:45:22] "POST /api/is_white HTTP/1.1" 200 -
